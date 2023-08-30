@@ -22,9 +22,14 @@ body {
   margin: 0 5%;
 }
 
-.scores-container {
+.scores {
+  list-style: none;
   display: flex;
-  margin: 20px;
+  flex-direction: column;
+}
+
+.scores li:nth-child(odd) {
+  background-color: aqua;
 }
 
 .recent-scores-container {
