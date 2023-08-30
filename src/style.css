@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 24px;
+}
+
+.title {
+  margin: 2% 10%;
+}
+
+.page-container {
+  display: flex;
+  gap: 20px;
+  margin: 0 10%;
+  width: 100%;
+}
+
+.left-side-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 5%;
+}
+
+.scores-container {
+  display: flex;
+  margin: 20px;
+}
+
+.recent-scores-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.scores {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.scores tr {
+  display: flex;
+  gap: 10px;
+}
+
+.scores tr:nth-child(odd) {
+  background-color: orange;
+}
+
+.right-side-container {
+  margin: 0 5%;
+}
