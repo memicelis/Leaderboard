@@ -26,6 +26,8 @@ body {
   list-style: none;
   display: flex;
   flex-direction: column;
+  border-collapse: collapse;
+  width: 100%;
 }
 
 .scores li:nth-child(odd) {
@@ -36,11 +38,6 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
-}
-
-.scores {
-  border-collapse: collapse;
-  width: 100%;
 }
 
 .scores tr {

@@ -17,11 +17,11 @@ const addScore = async () => {
         headers: {
           'Content-type': 'application/json; charset=UTF-8',
         },
-      }
+      },
     ).then((response) => response.json());
   }
 
-  //Clearing input
+  // Clearing input
   document.getElementById('name').value = '';
   document.getElementById('score').value = '';
 };

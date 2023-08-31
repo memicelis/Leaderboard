@@ -1,4 +1,4 @@
-import displayScores from './leaderboard';
+import displayScores from './leaderboard.js';
 
 const scoresContainer = document.querySelector('.scores');
 const refresh = () => {
