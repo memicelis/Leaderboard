@@ -145,7 +145,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _leaderboard_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./leaderboard.js */ \"./src/modules/leaderboard.js\");\n\n\nconst scoresContainer = document.querySelector('.scores');\nconst refresh = () => {\n  scoresContainer.innerHTML = '';\n  (0,_leaderboard_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (refresh);\n\n\n//# sourceURL=webpack://leaderboard/./src/modules/refresh.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _leaderboard__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./leaderboard */ \"./src/modules/leaderboard.js\");\n\r\n\r\nconst scoresContainer = document.querySelector('.scores');\r\nconst refresh = () => {\r\n  scoresContainer.innerHTML = '';\r\n  (0,_leaderboard__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\r\n};\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (refresh);\r\n\n\n//# sourceURL=webpack://leaderboard/./src/modules/refresh.js?");
 
 /***/ }),
 
