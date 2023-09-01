@@ -22,20 +22,22 @@ body {
   margin: 0 5%;
 }
 
-.scores-container {
+.scores {
+  list-style: none;
   display: flex;
-  margin: 20px;
+  flex-direction: column;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.scores li:nth-child(odd) {
+  background-color: aqua;
 }
 
 .recent-scores-container {
   display: flex;
   align-items: center;
   gap: 10px;
-}
-
-.scores {
-  border-collapse: collapse;
-  width: 100%;
 }
 
 .scores tr {

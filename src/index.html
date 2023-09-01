@@ -11,39 +11,18 @@
     <div class="left-side-container">
       <div class="recent-scores-container">
         <h3>Recent scores</h3>
-        <button class="btn btn-primary">Refresh</button>
+        <button id="refresh" class="btn btn-primary">Refresh</button>
       </div>
-      <table class="scores">
-        <tr>
-          <td>Name</td>
-          <td>100</td>
-        </tr>
-        <td>Name</td>
-          <td>20</td>
-        </tr>
-        <td>Name</td>
-          <td>50</td>
-        </tr>
-        <td>Name</td>
-          <td>78</td>
-        </tr>
-        <td>Name</td>
-          <td>125</td>
-        </tr>
-        <td>Name</td>
-          <td>77</td>
-        </tr>
-        <td>Name</td>
-          <td>42</td>
-        </tr>
-      </table>
+      <div class="scores">
+    </div>
 </div>
 <div class="right-side-container">
     <h3>Add your score</h3>
     <form class="add-score">
-        <input type="text" placeholder="Your name"></br>
-        <input type="number" placeholder="Your score"></br>
-        <input type="submit" value="Submit">
+        <input id="name" type="text" placeholder="Your name"></br>
+        <input id="score" type="number" placeholder="Your score"></br>
+        <button id="submit" type="submit">Submit</button>
+        <p id="error"></p>
     </form>
 </div>
 </div>
